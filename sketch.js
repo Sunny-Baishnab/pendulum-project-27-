@@ -7,7 +7,7 @@ const Constraint = Matter.Constraint;
 var constraintrope1;
 function preload()
 {
-	backgroundImg = loadImage("Images.jpg");
+	
 }
 
 function setup() {
@@ -46,7 +46,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(backgroundImg);
+  background("lightblue");
   Engine.update(engine);
   
   roof.display();
